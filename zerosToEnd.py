@@ -47,7 +47,7 @@ class Solution:
                 self.swap(arr, i, x)
                 x += 1
 
-    def swap(arr, idx1, idx2):
+    def swap(self, arr, idx1, idx2):
             temp = arr[idx1]
             arr[idx1] = arr[idx2]
             arr[idx2] = temp
